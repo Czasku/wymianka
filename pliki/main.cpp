@@ -2,6 +2,7 @@
 #include <cassert>
 #include <stdexcept>
 #include <iostream>
+#include <algorithm>
 
 class Funktor
 {
@@ -66,7 +67,7 @@ std::vector<Zbior> utworzZbiory()
     return zbiory;
 }
 
-#include <algorithm>
+
 
 std::vector<Zbior> filtrujZera(const std::vector<Zbior>& wektor)
 {
